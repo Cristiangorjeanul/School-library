@@ -1,2 +1,2 @@
 # School-library
-This application is a digital library model for a middle school (built with Html, Css, JavaScript - jQuery). If you want to see this app go to
+This application is a digital library model for a middle school (built with Html, Css, JavaScript - jQuery). If you want to see this app, go to at https://cristiangorjeanul.github.io/School-library/.
