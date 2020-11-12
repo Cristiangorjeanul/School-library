@@ -1,0 +1,69 @@
+label[for="invert-font"],
+label[for="invert-color"] {
+  top: 3px;
+  width: 29%;
+  height: 54px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  border: 1px solid white;
+  overflow: hidden;
+  position: fixed;
+  z-index: 100;
+  font-size: 12px;
+  line-height: 50px;
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+@media (min-width: 768px) {
+  label[for="invert-font"],
+  label[for="invert-color"] {
+    font-size: 17px;
+  }
+}
+
+label[for="invert-font"] {
+  left: 2px;
+  font-weight: 800;
+}
+
+label[for="invert-color"] {
+  right: 2px;
+  font-weight: 800;
+}
+
+#invert-font:checked ~ label[for="invert-font"] {
+  color: black;
+  background-color: white;
+}
+
+#invert-color:checked ~ label[for="invert-color"] {
+  color: black;
+  background-color: white;
+}
+
+#invert-font:checked ~ label[for="invert-font"]:before {
+  content: "SMALL FONT";
+}
+
+#invert-color:checked ~ label[for="invert-color"]:before {
+  content: "DAY MODE";
+}
+
+#invert-font:checked ~ main .category dd p {
+  font-size: 18px;
+}
+
+#invert-color:checked ~ main .category dd p {
+  color: white;
+  background-color: black;
+}
+
+label[for="invert-font"]:before {
+  content: "BIG FONT";
+}
+label[for="invert-color"]:before {
+  content: "NIGHT MODE";
+}

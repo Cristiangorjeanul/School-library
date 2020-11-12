@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Frontend eBook</title>
+    <meta name="Frontend eBook" content="Frontend eBook, HTML, CSS, 
+    JavaScript, jQuery, React, SASS, Responsive web design" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/invert.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/ebook.js"></script>
+</head>
+
+<body>
+
+    <article class="e-book">
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg">
+        </div>
+
+        <input type="checkbox" id="invert-color">
+        <input type="checkbox" id="invert-font">
+
+        <label for="invert-color"></label>
+        <label for="invert-font"></label>
+
+        <main>
+            <div class="page">
+                <div class="category">
+                    <h1>Frontend eBook</h1>
+
+                    <dl>
+
+                        <dt>
+                            <b>HTML 5</b>
+                        </dt>
+                        <dd>
+                            <p style="text-align: center">HTML 5</p><br>
+                            <p>&nbsp; Hypertext Markup Language (HTML) is the standard markup language for documents
+                                designed to be displayed in a web browser. It can be assisted by technologies such as
+                                Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+
+                                Web browsers receive HTML documents from a web server or from local storage and render
+                                the documents into multimedia web pages. HTML describes the structure of a web page
+                                semantically and originally included cues for the appearance of the document.
+
+                                HTML elements are the building blocks of HTML pages. With HTML constructs, images and
+                                other objects such as interactive forms may be embedded into the rendered page. HTML
+                                provides a means to create structured documents by denoting structural semantics for
+                                text such as headings, paragraphs, lists, links, quotes and other items. HTML elements
+                                are delineated by tags, written using angle brackets. Tags such as img and input
+                                directly introduce content into the page. Other tags such as p surround and provide
+                                information about document text and may include other tags as sub-elements.
+                                Browsers do not display the HTML tags, but use them to interpret the
+                                content of the page.
+                                HTML can embed programs written in a scripting language such as JavaScript, which
+                                affects the behavior and content of web pages. Inclusion of CSS defines the look and
+                                layout of content. The World Wide Web Consortium (W3C), former maintainer of the HTML
+                                and current maintainer of the CSS standards, has encouraged the use of CSS over explicit
+                                presentational HTML since 1997.<br>
+                                Bibliography: <a href="https://en.wikipedia.org/wiki/HTML">
+                                    https://en.wikipedia.org/wiki/HTML</a>
+                            </p><br>
+                        </dd>
+
+                        <dt>
+                            <b>CSS 3</b>
+                        </dt>
+                        <dd>
+                            <p style="text-align: center">CSS 3</p><br>
+                            <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the
+                                presentation of a document written in a markup language such as HTML.[1] CSS is a
+                                cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]
+
+                                CSS is designed to enable the separation of presentation and content, including layout,
+                                colors, and fonts.[3] This separation can improve content accessibility, provide more
+                                flexibility and control in the specification of presentation characteristics, enable
+                                multiple web pages to share formatting by specifying the relevant CSS in a separate .css
+                                file which reduces complexity and repetition in the structural content as well as
+                                enabling the .css file to be cached to improve the page load speed between the pages
+                                that share the file and its formatting.
+
+                                Separation of formatting and content also makes it feasible to present the same markup
+                                page in different styles for different rendering methods, such as on-screen, in print,
+                                by voice (via speech-based browser or screen reader), and on Braille-based tactile
+                                devices. CSS also has rules for alternate formatting if the content is accessed on a
+                                mobile device.[4]
+
+                                The name cascading comes from the specified priority scheme to determine which style
+                                rule applies if more than one rule matches a particular element. This cascading priority
+                                scheme is predictable.
+
+                                The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet
+                                media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998).
+                                The W3C operates a free CSS validation service for CSS documents.[5]
+
+                                In addition to HTML, other markup languages support the use of CSS including XHTML,
+                                plain XML, SVG, and XUL.<br>
+                                Bibliography: <a href="https://en.wikipedia.org/wiki/CSS">
+                                    https://en.wikipedia.org/wiki/CSS</a>
+                            </p><br>
+                        </dd>
+
+                        <dt>
+                            <b>Sass</b>
+                        </dt>
+                        <dd>
+                            <p style="text-align: center">Sass</p>
+                            <p>&nbsp; Sass (short for syntactically awesome style sheets) is a preprocessor scripting
+                                language that is interpreted or compiled into Cascading Style Sheets (CSS). SassScript
+                                is the scripting language itself.
+
+                                Sass consists of two syntaxes. The original syntax, called "the indented syntax," uses a
+                                syntax similar to Haml.[2] It uses indentation to separate code blocks and newline
+                                characters to separate rules. The newer syntax, "SCSS" (Sassy CSS), uses block
+                                formatting like that of CSS. It uses braces to denote code blocks and semicolons to
+                                separate rules within a block. The indented syntax and SCSS files are traditionally
+                                given the extensions .sass and .scss, respectively.
+
+                                CSS3 consists of a series of selectors and pseudo-selectors that group rules that apply
+                                to them. Sass (in the larger context of both syntaxes) extends CSS by providing several
+                                mechanisms available in more traditional programming languages, particularly
+                                object-oriented languages, but that are not available to CSS3 itself. When SassScript is
+                                interpreted, it creates blocks of CSS rules for various selectors as defined by the Sass
+                                file. The Sass interpreter translates SassScript into CSS. Alternatively, Sass can
+                                monitor the .sass or .scss file and translate it to an output .css file whenever the
+                                .sass or .scss file is saved.[3]
+
+                                The indented syntax is a metalanguage. SCSS is a nested metalanguage, as valid CSS is
+                                valid SCSS with the same semantics.
+
+                                SassScript provides the following mechanisms: variables, nesting, mixins, and selector
+                                inheritance.[2]<br>
+                                Bibliography: <a href="https://en.wikipedia.org/wiki/Sass_(stylesheet_language)">
+                                    https://en.wikipedia.org/wiki/Sass</a><br>
+                            </p><br>
+                        </dd>
+
+                        <dt>
+                            <b>JavaScript</b>
+                        </dt>
+                        <dd>
+                            <p style="text-align: center">JavaScript</p>
+                            <p>JavaScript (/ˈdʒɑːvəˌskrɪpt/),[6] often abbreviated as JS, is a programming language that
+                                conforms to the ECMAScript specification.[7] JavaScript is high-level, often
+                                just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing,
+                                prototype-based object-orientation, and first-class functions.
+
+                                Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide
+                                Web.[8] JavaScript enables interactive web pages and is an essential part of web
+                                applications. The vast majority of websites use it for client-side page behavior,[9] and
+                                all major web browsers have a dedicated JavaScript engine to execute it.
+
+                                As a multi-paradigm language, JavaScript supports event-driven, functional, and
+                                imperative programming styles. It has application programming interfaces (APIs) for
+                                working with text, dates, regular expressions, standard data structures, and the
+                                Document Object Model (DOM). However, the language itself does not include any
+                                input/output (I/O), such as networking, storage, or graphics facilities, as the host
+                                environment (usually a web browser) provides those APIs.
+
+                                JavaScript engines were originally used only in web browsers, but they are now embedded
+                                in some servers, usually via Node.js. They are also embedded in a variety of
+                                applications created with frameworks such as Electron and Cordova.
+
+                                Although there are similarities between JavaScript and Java, including language name,
+                                syntax, and respective standard libraries, the two languages are distinct and differ
+                                greatly in design.<br>
+                                Bibliography: <a href="https://en.wikipedia.org/wiki/JavaScript">
+                                    https://en.wikipedia.org/wiki/JavaScript</a>
+                            </p><br>
+                        </dd>
+
+                        <dt>
+                            <b>EcmaScript</b>
+                        </dt>
+                        <dd>
+                            <p style="text-align: center">EcmaScript<br>
+                            </p>
+                            <p>&nbsp; ECMAScript (or ES)[1] is a general-purpose programming language, standardized by
+                                Ecma International according to the document ECMA-262. It is a JavaScript standard meant
+                                to ensure the interoperability of Web pages across different Web browsers.[2] ECMAScript
+                                is commonly used for client-side scripting on the World Wide Web, and it is increasingly
+                                being used for writing server applications and services using Node.js.
+                                Bibliography: <a href="https://en.wikipedia.org/wiki/ECMAScript">
+                                    https://en.wikipedia.org/wiki/ECMAScript</a><br>
+                            </p><br>
+                        </dd>
+
+                        <dt>
+                            <b>jQuery</b>
+                        </dt>
+                        <dd>
+                            <p style="text-align: center">jQuery</p>
+                            <p>&nbsp;
+                                jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and
+                                manipulation, as well as event handling, CSS animation, and Ajax.[3] It is free,
+                                open-source software using the permissive MIT License.[4] As of May 2019, jQuery is used
+                                by 73% of the 10 million most popular websites.[5] Web analysis indicates that it is the
+                                most widely deployed JavaScript library by a large margin, having at least 3 to 4 times
+                                more usage than any other JavaScript library.[5][6]
+
+                                jQuery's syntax is designed to make it easier to navigate a document, select DOM
+                                elements, create animations, handle events, and develop Ajax applications. jQuery also
+                                provides capabilities for developers to create plug-ins on top of the JavaScript
+                                library. This enables developers to create abstractions for low-level interaction and
+                                animation, advanced effects and high-level, themeable widgets. The modular approach to
+                                the jQuery library allows the creation of powerful dynamic web pages and Web
+                                applications.
+
+                                The set of jQuery core features—DOM element selections, traversal and
+                                manipulation—enabled by its selector engine (named "Sizzle" from v1.3), created a new
+                                "programming style", fusing algorithms and DOM data structures. This style influenced
+                                the architecture of other JavaScript frameworks like YUI v3 and Dojo, later stimulating
+                                the creation of the standard Selectors API.[7] Later, this style has been enhanced with
+                                a deeper algorithm-data fusion in an heir of jQuery, the D3.js framework.<br>
+                                Bibliography: <a href="https://en.wikipedia.org/wiki/JQuery">
+                                    https://en.wikipedia.org/wiki/JQuery</a><br>
+                            </p><br>
+                        </dd>
+
+                        <dt>
+                            <b>Angular</b>
+                        </dt>
+                        <dd>
+                            <p style="text-align: center">React</p>
+                            <p>&nbsp; Angular (commonly referred to as "Angular 2+" or "Angular v2 and above")[3][4] is
+                                a TypeScript-based open-source web application framework led by the Angular Team at
+                                Google and by a community of individuals and corporations. Angular is a complete rewrite
+                                from the same team that built AngularJS.<br>
+                                Bibliography: <a href="https://en.wikipedia.org/wiki/Angular_(web_framework)">
+                                    https://en.wikipedia.org/wiki/Angular</a><br>
+                            </p><br>
+                        </dd>
+
+                        <dt>
+                            <b>Responsive web design</b>
+                        </dt>
+                        <dd>
+                            <p style="text-align: center">Responsive web design</p>
+                            <p>&nbsp; Responsive web design (RWD) is an approach to web design that makes web pages
+                                render well on a variety of devices and window or screen sizes. Recent work also
+                                considers the viewer proximity as part of the viewing context as an extension for
+                                RWD.[1] Content, design and performance are necessary across all devices to ensure
+                                usability and satisfaction.[2][3][4][5]
+
+                                A site designed with RWD[2][6] adapts the layout to the viewing environment by using
+                                fluid, proportion-based grids,[7][8] flexible images,[9][10][11] and CSS3 media
+                                queries,[4][12][13] an extension of the @media rule, in the following ways:[14]
+
+                                The fluid grid concept calls for page element sizing to be in relative units like
+                                percentages, rather than absolute units like pixels or points.[8]
+                                Flexible images are also sized in relative units, so as to prevent them from displaying
+                                outside their containing element.[9]
+                                Media queries allow the page to use different CSS style rules based on characteristics
+                                of the device the site is being displayed on, e.g. width of the rendering surface
+                                (browser window width or a physical display size).
+                                Responsive layouts automatically adjust and adapt to any device screen size, whether it
+                                is a desktop, a laptop, a tablet, or a mobile phone.
+                                Responsive web design has become more important as the amount of mobile traffic
+                                now[when?] accounts for more than half of total internet traffic.[15] Therefore, Google
+                                announced Mobilegeddon in 2015, and started to boost the ratings of sites that are
+                                mobile friendly if the search was made from a mobile device.[16] Responsive web design
+                                is an example of user interface plasticity.[17]<br>
+                                Bibliography: <a href="https://en.wikipedia.org/wiki/Responsive_web_design">
+                                    https://en.wikipedia.org/wiki/Responsive_web_design</a><br>
+                            </p><br>
+                        </dd>
+
+                    </dl>
+                </div>
+            </div>
+        </main>
+
+    </article>
+
+</body>
+
+</html>
